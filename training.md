@@ -1,6 +1,17 @@
 # 🧑‍💻 Technical & Professional Training
 
 This page outlines formal training courses and hands-on technical modules that have shaped my career trajectory, skills, and certifications.
+---
+
+## 🛡️ Certifications
+
+Certifications earned through formal evaluation and industry-standard assessment:
+
+- ITIL Foundations v3 *(AXELOS, 2009)*
+- Microsoft Certified: Azure Data Fundamentals *(2021)*
+- Microsoft Certified: Information Protection Administrator Associate *(2021–2023)*
+- Microsoft Certified: Security, Compliance, and Identity Fundamentals *(2021–2023)*
+- Microsoft Certified Systems Engineer (MCSE) *(1996–2014)*
 
 ---
 
