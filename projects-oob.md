@@ -143,10 +143,12 @@ echo "</config>" >> server_config.xml
 - Logs: Separated into success/failure logs with detailed tracebacks
 
 
-```bash # Bash snippet for exit logging
+```Bash
+# Bash snippet for exit logging
 log_exit() {
   echo "$HOSTNAME | $IP | BIOS:$BIOS_VERSION | FW:$FW_VERSION" >> success.log
 }
+
 ```
 
 
