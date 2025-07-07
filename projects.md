@@ -4,7 +4,7 @@ This file chronicles large-scale infrastructure, automation, and system architec
 
 ---
 
-## 🔧 Out-of-Band Automation Project(projects-oob.md)  
+## 🔧 Out-of-Band Automation Project  
 **Role:** Scripting Engineer / Systems Operator  
 **Organization:** AMEX via IBM (Contract)  
 **Dates:** June 2011 – November 2012  
@@ -17,6 +17,7 @@ This file chronicles large-scale infrastructure, automation, and system architec
 - Collaborated across infrastructure, compliance, and network teams to ensure fault-tolerance and rollback support  
 
 🔗 Related Timeline Entry: [2011–2013 – AMEX via IBM](timeline.md)
+🔗 Related Project details: [Project File for OOB](projects-oob.md)
 
 ---
 
