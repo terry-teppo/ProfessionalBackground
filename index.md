@@ -23,7 +23,7 @@ I blend deep architectural theory with practical execution — emphasizing fit-t
 
 ## 📂 Explore My Résumé Repository
 
-🔗 [View Full Résumé: ProfessionalBackground](https://github.com/terry-teppo/ProfessionalBackground)
+🔗 [View Full Résumé: ProfessionalBackground](README.md)
 
 Includes:
 - Modular `skills.md`, `training.md`, and `timeline.md` files
