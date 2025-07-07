@@ -23,6 +23,18 @@ gantt
     Enbridge – Support Technician       :enbridge,           2023-04, 2025-06
 ```
 
+```mermaid
+gantt
+    title Major Architectural & Technical Projects
+    dateFormat  YYYY-MM
+    axisFormat  %Y
+
+    section Big Projects
+    TLS Proxy Rollouts (AMEX/IBM)     :tlsproj,        2011-06, 2012-08
+    Yard Ops Refactor (Isaksson)      :yardproj,       2016-03, 2017-05
+    formaeld Embedded Driver Tests    :formproj,       2019-01, 2019-03
+    QuantumChain Governance Drafting  :qcgov,          2024-01, 2025-06
+```
 ---
 
 ### 📌 Notes:
