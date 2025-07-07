@@ -1,9 +1,10 @@
 # 🧑‍💻 Technical & Professional Training
 
 This page outlines formal training courses and hands-on technical modules that have shaped my career trajectory, skills, and certifications.
+
 ---
 
-## 🛡️ Certifications
+## Certifications
 
 Certifications earned through formal evaluation and industry-standard assessment:
 
