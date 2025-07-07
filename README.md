@@ -1,3 +1,39 @@
+# 💼 Terry's Résumé & Career Profile
+
+## 🧠 Professional Summary
+Versatile IT specialist with enterprise experience in infrastructure automation, security compliance, and regional support operations. Certified in Microsoft Azure and BIOS automation leadership across regulated environments.
+
+## 🧰 Skills Matrix
+- **Scripting Languages:** PowerShell, Bash, Perl, Korn, Batch  
+- **Systems:** Windows NT4–2012, Red Hat, VMware ESXi  
+- **Tools:** ILO, IMM, DRAC, Altiris, ServiceNow, SQL Server  
+- **Cloud/Security:** Azure, TLS Proxy Auth, Cybersecurity Architect  
+
+## 🎓 Education
+**Bachelor of Science – Business Administration**  
+University of Phoenix, Phoenix, AZ (2009)
+
+## 🛡️ Certifications
+- ITIL Foundations v3 (2009)  
+- Azure Data Fundamentals (2021)  
+- MCSE (1996–2014)  
+- Microsoft Identity, Protection & Security certs (2021–2023)
+
+## 🧰 Training Snapshot
+> VMware, Avaya CIE, EMC SnapView, Microsoft Windows/SQL/Azure, SIMA Naval Programming (COBOL, C, dBase)
+
+## 💼 Work Timeline
+### 2023–2025 | Enbridge – Urban Support  
+Desktop ops across Duluth/Superior metro  
+### 2020–2023 | HCL – IT CSR  
+Enterprise helpdesk under SLA pressure  
+### 2011–2013 | AMEX/IBM – Scripting Engineer  
+25K server automation, PCI firewall design  
+... _and more, all the way back to Navy tech roots_
+
+## 🗂️ References
+Available in `references.md`
+
 ## 📌 Quick Links
 - [Skills Matrix](skills.md)
 - [Training & Certifications](training.md)
