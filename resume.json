@@ -8,9 +8,10 @@
   },
   "professional_summary": "Versatile IT specialist with expertise across enterprise infrastructure, BIOS automation, PCI policy redesign, and regional end-user support. Certified in Microsoft Azure and information protection, and fluent in scripting across legacy and modern systems. Proven leader across high-stakes environments and client-facing operations.",
   "skills": {
-    "scripting_languages": ["PowerShell", "Perl", "Bash", "Korn", "Batch"],
+    "scripting_languages": ["PowerShell", "Perl", "Bash", "Korn", "Batch", "VBScript"],
+    "Coding_Languages": ["C", "C++", "C#", "VB"],
     "operating_systems": ["Windows NT4-2012", "Red Hat Linux", "VMware ESXi"],
-    "tools": ["ILO", "IMM", "DRAC", "Altiris", "WSUS", "SQL Server", "F5", "ServiceNow"],
+    "tools": ["ILO", "IMM", "DRAC", "Altiris", "WSUS", "SQL Server", "F5", "ServiceNow", "Windows Server"],
     "enterprise_tech": ["Azure", "Active Directory", "TLS Authentication", "LDAP", "BIOS & Firmware Management"]
   },
   "work_experience": [
