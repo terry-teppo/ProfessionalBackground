@@ -4,6 +4,23 @@ I’m Terry Teppo — a senior systems architect with decades of experience in s
 
 ---
 
+## 🎯 Open to Senior Engineering Opportunities
+
+With over 30 years of experience in scripting, distributed systems, infrastructure resilience, and modular system architecture, I'm seeking contract or full-time roles in:
+
+- Fault-tolerant infrastructure and systems architecture  
+- Security-first design and automation engineering  
+- Blockchain systems modeling, governance, and validator logic  
+- Post-quantum cryptography and telemetry-driven observability
+
+I blend deep architectural theory with practical execution — emphasizing fit-to-need design, error trapping, and compositional clarity. Recent hands-on work includes validator rotation engines, PCI-compliant automation frameworks, telemetry emitters, and distributed network segmentation.
+
+💡 [Professional Background & Portfolio](https://terry-teppo.github.io/ProfessionalBackground)  
+📄 [Download Résumé (PDF)](resume.pdf) _(optional if you want to add)_  
+🧠 Contact me directly via LinkedIn, GitHub, or repo comments
+
+---
+
 ## 📂 Explore My Résumé Repository
 
 🔗 [View Full Résumé: ProfessionalBackground](https://github.com/terry-teppo/ProfessionalBackground)
