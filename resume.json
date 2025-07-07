@@ -1,0 +1,157 @@
+{
+  "contact_info": {
+    "name": "Terry",
+    "email": "your.email@example.com",
+    "phone": "555-555-5555",
+    "linkedin": "https://linkedin.com/in/terry-profile",
+    "location": "Iron River, WI"
+  },
+  "professional_summary": "Versatile IT specialist with expertise across enterprise infrastructure, BIOS automation, PCI policy redesign, and regional end-user support. Certified in Microsoft Azure and information protection, and fluent in scripting across legacy and modern systems. Proven leader across high-stakes environments and client-facing operations.",
+  "skills": {
+    "scripting_languages": ["PowerShell", "Perl", "Bash", "Korn", "Batch"],
+    "operating_systems": ["Windows NT4-2012", "Red Hat Linux", "VMware ESXi"],
+    "tools": ["ILO", "IMM", "DRAC", "Altiris", "WSUS", "SQL Server", "F5", "ServiceNow"],
+    "enterprise_tech": ["Azure", "Active Directory", "TLS Authentication", "LDAP", "BIOS & Firmware Management"]
+  },
+  "work_experience": [
+    {
+      "title": "Desktop Support Technician (Urban)",
+      "organization": "Enbridge",
+      "location": "Duluth MN & Superior WI",
+      "dates": "April 2023 – June 2025",
+      "summary": "Provided regional desktop support across Enbridge locations in Duluth and Superior. Supported Windows/Linux endpoints, VPN issues, installations, and escalations.",
+      "achievements": [
+        "Maintained coverage across all metro facilities with rapid SLA response",
+        "Collaborated with cybersecurity and networking teams",
+        "Resolved complex device configurations in field environments"
+      ]
+    },
+    {
+      "title": "IT Customer Service Representative",
+      "organization": "HCL Technologies",
+      "dates": "December 2020 – April 2023",
+      "summary": "Delivered Tier 1/2 support across enterprise systems, including troubleshooting hardware and software under SLA conditions.",
+      "achievements": [
+        "Resolved desktop, mobile, and network issues remotely",
+        "Translated complex issues into clear, user-friendly guidance",
+        "Maintained ticket flow using ServiceNow and Remedy"
+      ]
+    },
+    {
+      "title": "New Technology Test Driver",
+      "organization": "formaeld",
+      "dates": "January 2019 – March 2019",
+      "summary": "Tested embedded systems in prototype vehicles and provided structured feedback for firmware and sensor refinement.",
+      "achievements": [
+        "Identified telemetry gaps and edge-case behaviors",
+        "Collaborated with embedded software engineers",
+        "Improved vehicle UI/UX through real-world testing"
+      ]
+    },
+    {
+      "title": "Bookkeeper and Yard Boss",
+      "organization": "Isaksson Lumber Company Inc",
+      "dates": "May 2015 – September 2018",
+      "summary": "Managed financial operations and supervised lumber yard logistics and safety.",
+      "achievements": [
+        "Oversaw payroll, invoicing, and account reconciliation",
+        "Directed equipment operations and delivery coordination",
+        "Improved yard layout for safety and efficiency"
+      ]
+    },
+    {
+      "title": "Scripting Engineer / Windows Systems Operator",
+      "organization": "Collabera (IBM Contract) supporting AMEX",
+      "dates": "2011 – 2013",
+      "summary": "Led automation of Out-of-Band Management for 25,000 servers. Built BIOS compatibility matrices and rewrote TLS access policies.",
+      "achievements": [
+        "Deployed ILO/IMM/DRAC scripting across Windows, Linux, and VMware",
+        "Enabled segmented TLS via F5 proxy authentication",
+        "Achieved zero critical failures on BIOS automation rollout"
+      ]
+    }
+  ],
+  "education": {
+    "degree": "Bachelor of Science in Business Administration",
+    "institution": "University of Phoenix",
+    "location": "Phoenix, AZ",
+    "year": 2009
+  },
+  "certifications": [
+    {
+      "title": "ITIL Foundations Certification v3",
+      "issuer": "AXELOS",
+      "year": 2009
+    },
+    {
+      "title": "Azure Data Fundamentals",
+      "issuer": "Microsoft",
+      "year": 2021
+    },
+    {
+      "title": "Information Protection Administrator Associate",
+      "issuer": "Microsoft",
+      "validity": "2021–2023"
+    },
+    {
+      "title": "Security, Compliance, and Identity Fundamentals",
+      "issuer": "Microsoft",
+      "validity": "2021–2023"
+    },
+    {
+      "title": "MCSE",
+      "issuer": "Microsoft",
+      "validity": "1996–2014"
+    }
+  ],
+  "training": {
+    "vmware": "VMware VCP-track training – 2011",
+    "avaya": ["Avaya CIE Administration – 2008", "Avaya CIE Call Flow Programming – 2008"],
+    "emc": [
+      "SnapView Configuration & Management – 2004",
+      "CLARiiON Host Integration – 2004",
+      "SnapView Foundations – 2004",
+      "VisualSRM Introductions – 2004"
+    ],
+    "microsoft": [
+      "Windows NT 4.0 Server, Workstation, Network, RAS – 1996",
+      "SQL Server 6.5 & 7.0 Admin – 1997",
+      "Windows 2000 & LDAP – 2000",
+      "Azure Courses – 2022: DP-300T00-A, AI-900T00, SC-100T00-A, SC-200T00-A, SC-300T00-A, SC-400T00-A, AZ-104T00-A"
+    ],
+    "naval": [
+      "COBOL Programming I & II – 1989",
+      "C Programming – 1990",
+      "dBase III & IV (Advanced) – 1990"
+    ]
+  },
+  "references": [
+    {
+      "name": "Tim Gruba",
+      "role": "IT Manager",
+      "organization": "Enbridge",
+      "email": "tim.gruba@enbridge.com",
+      "phone": "218-269-5127"
+    },
+    {
+      "name": "Anthony Miller",
+      "role": "IT Supervisor",
+      "organization": "Enbridge",
+      "email": "anthony.miller@enbridge.com",
+      "phone": "218-343-7335"
+    },
+    {
+      "name": "Joshua Clasen",
+      "role": "Technical Advisor, End User Services",
+      "organization": "Enbridge",
+      "email": "joshua.clasen@enbridge.com",
+      "phone": "218-522-4749"
+    },
+    {
+      "name": "Albert Ramos",
+      "role": "Supervisor",
+      "organization": "TechMahindra",
+      "phone": "713-553-9753"
+    }
+  ]
+}
