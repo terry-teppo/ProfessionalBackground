@@ -48,6 +48,38 @@ A full history of technical, operational, and field roles across industries — 
 
 ---
 
+## 🛠️ Senior Network and Systems Administrator — SCF of Arizona  
+**Dates:** June 1996 – April 2011  
+**Location:** Phoenix, Arizona
+
+- Administered complex multi-site Windows Server ecosystems (NT4 through 2008)  
+- Managed Active Directory forest structure, domain segmentation, and LDAP policies  
+- Engineered PowerShell, Perl, Bash, and Korn scripts for infrastructure automation  
+- Led upgrades across SQL Server environments (6.5, 7.0, 2000, and 2005), improving performance and reliability  
+- Standardized BIOS and firmware deployment using DRAC, IMM, and ILO tools across enterprise hardware  
+- Coordinated disaster recovery strategies utilizing Out-of-Band access protocols  
+- Designed TLS proxy access policies and integrated F5 infrastructure for secure network traffic  
+- Supervised technical staff, providing mentorship and escalation support across operations tiers  
+- Collaborated with cybersecurity, networking, and database teams for seamless cross-functional alignment  
+- Authored process documentation for infrastructure lifecycle, escalation workflows, and scripting best practices  
+- Oversaw hardware lifecycle transitions, platform decommissioning, and rollout compatibility testing  
+- Spearheaded enterprise service desk integrations and SLA metric development for escalations  
+- Delivered internal training programs on scripting hygiene, network behavior, and system recovery
+
+---
+
+## ⚓ SIMA Naval Technical Training  
+**Years:** 1989–1990  
+**Location:** U.S. Naval Facility  
+- Completed COBOL Programming I & II  
+- Completed C Programming coursework  
+- Completed dBase III & IV: Beginning, Advanced, and Programming  
+- Developed strong foundation in procedural logic and database structures  
+- Trained in technical documentation and Navy-grade compliance systems
+- Assembled IBM Clones / Personal computer for Novel network 
+---
+
+
 ## 🔗 Related Sections
 
 - 🛠️ [Skills Matrix](skills.md)  
