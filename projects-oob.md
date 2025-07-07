@@ -134,11 +134,14 @@ Included full documentation, handoff, and revision of:
 echo "<config>" > server_config.xml
 echo "<hostname>$HOSTNAME</hostname>" >> server_config.xml
 echo "</config>" >> server_config.xml
+
 ```
+
 ###📋 Error Handling & Logging
-Try/Catch Logic: Captures BIOS/FW states, IPs, hostnames
-Error Codes: Matched against known matrix; unknown codes flagged
-Logs: Separated into success/failure logs with detailed tracebacks
+- Try/Catch Logic: Captures BIOS/FW states, IPs, hostnames
+- Error Codes: Matched against known matrix; unknown codes flagged
+- Logs: Separated into success/failure logs with detailed tracebacks
+
 
 ```bash # Bash snippet for exit logging
 log_exit() {
