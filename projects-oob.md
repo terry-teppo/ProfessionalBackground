@@ -20,7 +20,7 @@ These actions couldn’t be reliably executed with traditional tools like KVM, l
 
 ### ❌ Initial Roadblock
 The project ground to a halt early—SSL issues:
-- **Context:** Some OBM-capable devices required SSL ≤ 1.2 for AD authentication.
+- **Context:** Some OOB-capable devices required SSL ≤ 1.2 for AD authentication.
 - **Policy:** Org-wide ban on SSL below v1.2 due to vulnerabilities like man-in-the-middle attacks.
 
 ### 🧠 The Breakthrough
