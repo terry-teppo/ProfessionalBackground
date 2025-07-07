@@ -137,7 +137,7 @@ echo "</config>" >> server_config.xml
 
 ```
 
-###📋 Error Handling & Logging
+### 📋 Error Handling & Logging
 - Try/Catch Logic: Captures BIOS/FW states, IPs, hostnames
 - Error Codes: Matched against known matrix; unknown codes flagged
 - Logs: Separated into success/failure logs with detailed tracebacks
@@ -151,6 +151,30 @@ log_exit() {
 
 ```
 
+## ⚙️ Change Order Strategy
+### 🎲 Risk Management
+- Proposed: 1 change order for 25,000 Intel-based servers
+- Risk tier exceeded managerial sign-off boundaries
+
+## 🧩 Leadership Engagement
+ - VP-level call confirmed scale required external code review before sign-off. Ensured responsible change control amid high stakes.
+
+## 🚀 Deployment Results
+
+| Platform | Rate        | Notes                                                              |
+|----------|-------------|--------------------------------------------------------------------|
+| Windows  | 5,000/day   | <300 failures; resolved manually using reboot override flag        |
+| VMware   | 96 servers  | Flawless Bash execution (manual run)                               |
+| Linux    | Variable    | Argentina team unlocked Oracle deployment via novel scripting      |
+
+---
+
+## 🎯 Lessons & Takeaways
+
+- 🚧 **Policy work requires precision and diplomacy** — not just technical competence  
+- 🔄 **Scripting across heterogeneous platforms** demanded mastery of multiple tooling philosophies  
+- 👥 **Team alignment and stakeholder trust** were pivotal for execution success  
+- 🧠 **Architectural clarity** enabled modular extension and long-term maintainability  
 
 
 
