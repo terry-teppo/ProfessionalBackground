@@ -1,5 +1,11 @@
 # 💼 Terry's Résumé & Career Profile
 
+## 🌐 Online Portfolio
+
+Visit my professional portfolio website for a streamlined résumé, career timeline, certifications, and project links:
+
+🔗 [terry-teppo.github.io](https://terry-teppo.github.io)
+
 ## 🧠 Professional Summary
 Versatile IT specialist with enterprise experience in infrastructure automation, security compliance, and regional support operations. Certified in Microsoft Azure and BIOS automation leadership across regulated environments.
 
@@ -30,6 +36,9 @@ Enterprise helpdesk under SLA pressure
 ### 2011–2013 | AMEX/IBM – Scripting Engineer  
 25K server automation, PCI firewall design  
 ... _and more, all the way back to Navy tech roots_
+
+💼 Full Résumé & Experience:  
+[📂 ProfessionalBackground Repository](https://github.com/terry-teppo/ProfessionalBackground)
 
 ## 🗂️ References
 Available in `references.md`
