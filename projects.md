@@ -24,8 +24,10 @@ This file chronicles large-scale infrastructure, automation, and system architec
 # List of Projects
 
 ## 🧩 QuantumChain – TruthSpec Architecture & Runtime Doctrine
+
 __Role:__ Architect & Systems Strategist
 __Highlights:__ 
+
 - Designed and enforced a formal specification language (TruthSpec) to model semantic intent, behavioral guarantees, and runtime fingerprints across all modular subsystems
 - Implemented a CI-integrated documentation parser with runtime validation of YAML headers, contract fields, and entropy participation
 - Established a governance-aware schema index with emoji-based thematic tagging and self-healing contract discovery
