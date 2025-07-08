@@ -25,7 +25,8 @@ This file chronicles large-scale infrastructure, automation, and system architec
 
 ## 🧩 QuantumChain – TruthSpec Architecture & Runtime Doctrine
 
-__Role:__ Architect & Systems Strategist
+__Role:__ Architect & Systems Strategist 
+
 __Highlights:__ 
 
 - Designed and enforced a formal specification language (TruthSpec) to model semantic intent, behavioral guarantees, and runtime fingerprints across all modular subsystems
