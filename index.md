@@ -23,6 +23,14 @@ I blend deep architectural theory with practical execution — emphasizing fit-t
 
 ---
 
+## 🧠 QuantumChain Coding Project
+
+At the core of QuantumChain lies a belief that systems should not merely operate—they should articulate. Each subsystem within the network is accountable not just to the code, but to a doctrine of declared intent. The TruthSpec Meta Doctrine captures this ideology in detail, offering a blueprint for how modular components express purpose, stability conditions, failure expectations, and entropy participation.  This isn’t traditional documentation—it’s a living contract between code and governance. If you’re looking to understand how QuantumChain treats behavior not as a byproduct, but as a first-class architectural citizen, the Meta Doctrine is your map.
+
+###   [QuantumChain:Doctrine](https://terry-teppo.github.io/truthspec-doctrine/)  
+
+--- 
+
 ## 📂 Explore My Résumé Repository
 
 🔗 [View Full Résumé: ProfessionalBackground](README.md)
