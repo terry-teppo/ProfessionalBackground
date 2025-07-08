@@ -17,7 +17,9 @@ I blend deep architectural theory with practical execution — emphasizing fit-t
 
 💡 [Professional Background & Portfolio](https://terry-teppo.github.io/ProfessionalBackground)  
 📄 [Download Résumé (PDF)](resume.pdf) _(optional if you want to add)_  
-🧠 Contact me directly via LinkedIn, GitHub, or repo comments
+🧠 Contact me directly via:
+    [LinkedIn:WebProfile](https://www.linkedin.com/in/terry-robert-teppo/)  
+     GitHub, or repo comments
 
 ---
 
