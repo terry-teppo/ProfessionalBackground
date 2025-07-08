@@ -59,6 +59,7 @@ This file chronicles large-scale infrastructure, automation, and system architec
 - Collaborated across infrastructure, compliance, and network teams to ensure fault-tolerance and rollback support  
 
 🔗 Related Timeline Entry: [2011–2013 – AMEX via IBM](timeline.md)
+
 🔗 Related Project details: [Project File for OOB](projects-oob.md)
 
 ---
