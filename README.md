@@ -4,7 +4,7 @@
 
 Visit my professional portfolio website for a streamlined résumé, career timeline, certifications, and project links:
 
-🔗 [terry-teppo.github.io](https://terry-teppo.github.io)
+🔗 [terry-teppo.github.io](https://terry-teppo.github.io/ProfessionalBackground/)
 
 ## 🧠 Professional Summary
 Versatile IT specialist with enterprise experience in infrastructure automation, security compliance, and regional support operations. Certified in Microsoft Azure and BIOS automation leadership across regulated environments.
