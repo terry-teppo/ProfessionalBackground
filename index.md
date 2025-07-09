@@ -16,7 +16,6 @@ With over 30 years of experience in scripting, distributed systems, infrastructu
 I blend deep architectural theory with practical execution — emphasizing fit-to-need design, error trapping, and compositional clarity. Recent hands-on work includes validator rotation engines, PCI-compliant automation frameworks, telemetry emitters, and distributed network segmentation.
 
 💡 [Professional Background & Portfolio](https://terry-teppo.github.io/ProfessionalBackground)  
-📄 [Download Résumé (PDF)](resume.pdf) _(optional if you want to add)_  
 🧠 Contact me directly via:
     [LinkedIn:WebProfile](https://www.linkedin.com/in/terry-robert-teppo/)  
      GitHub, or repo comments
@@ -33,7 +32,7 @@ At the core of QuantumChain lies a belief that systems should not merely operate
 
 ## 📂 Explore My Résumé Repository
 
-🔗 [View Full Résumé: ProfessionalBackground](README.md)
+🔗 [View Full Résumé: ProfessionalBackground](./README.md)
 
 Includes:
 - Modular `skills.md`, `training.md`, and `timeline.md` files
