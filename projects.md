@@ -67,8 +67,9 @@ This file chronicles large-scale infrastructure, automation, and system architec
 
 
 ## 🧭 Mainframe Migration – Transitional Computing Before Network Maturity
-***Role: *** Primary Programmer & Migration Architect
-***Time Frame: ***  1990
+**Role:** Primary Programmer & Migration Architect  
+**Time Frame:**  1990
+
 ### Objective:
 Transition mission-critical shipboard databases and reporting tools off an unsupported mainframe platform to autonomous DOS-based PCs, in an environment where network infrastructure was rare and not yet deployed.
 ### Historical Context:
