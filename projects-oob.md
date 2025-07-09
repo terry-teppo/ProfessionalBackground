@@ -177,8 +177,8 @@ log_exit() {
 - 🧠 **Architectural clarity** enabled modular extension and long-term maintainability  
 
 
-
-
+[BackTo:Projects](./projects.md)
+[BackTo:Index.md](./index.md)
 
 
 
