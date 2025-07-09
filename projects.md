@@ -65,7 +65,33 @@ This file chronicles large-scale infrastructure, automation, and system architec
 ---
 
 
+## 🧭 Mainframe Migration – Transitional Computing Before Network Maturity
+***Role: *** Primary Programmer & Migration Architect
+***Time Frame: ***  1990
+### Objective:
+Transition mission-critical shipboard databases and reporting tools off an unsupported mainframe platform to autonomous DOS-based PCs, in an environment where network infrastructure was rare and not yet deployed.
+### Historical Context:
+This project took place aboard a U.S. Navy aircraft carrier with a crew of over 5,000 personnel. Enterprise networking was in its infancy; Novell NetWare had yet to be adopted, IBM Token Ring was still under evaluation, and systems operated in isolation. DOS-based personal computers represented the edge of available technology, with data mobility handled via floppy disks and removable hard drives stored in secure safes.
 
+### Scope & Execution:
+- Jointly engineered the data migration pipeline, working as a two-person unit to convert and restructure personal, medical, dental, ship maintenance, and compartment assignment records into portable ASCII formats
+- Discovered and utilized a rarely known system utility to write directly from the mainframe to 5.25” floppies—enabling a physical bridge from centralized processing to decentralized execution
+- Authored custom text-based export routines that bypassed traditional reporting, creating raw datasets for department ingestion
+- Walked data physically to departmental PCs, where it was parsed and imported into dBASE IV and FoxPro, then wrapped with compiled code to create self-contained, locally operated applications
+- Designed all systems to run directly off removable drives, ensuring security, data custody, and operational independence in the absence of networking
+
+### Operational Impact:
+- Delivered autonomous tools for personnel, medical, and maintenance workflows—each tailored for department use with no reliance on shared infrastructure
+- Safely decommissioned unsupported mainframe systems without loss of mission-critical functionality
+- Provided continuity across core shipboard logistics and administration using minimal hardware, custom applications, and hand-carried synchronization
+- Informed early infrastructure decisions by sharing real-world insights on Token Ring architecture (via familial industry experience) during Navy evaluation; the command ultimately selected Novell after proposals from multiple departments
+
+## Capstone Reflection:
+>“This migration became my first lesson in modular resilience under pressure. Working without networks, modern tooling, or safety nets, I learned that robustness lives in the details: how data moves, how logic unfolds, how human workflows adapt. Every constraint became an architectural clue. That experience didn’t just shape how I build systems—it taught me to respect the friction that reveals what truly matters.”
+
+>“We migrated not just systems—but mindsets, from centralized dependency to autonomous resilience, in the silence between the wires.”
+
+--- 
 
 
 
