@@ -44,9 +44,10 @@ Enterprise helpdesk under SLA pressure
 Available in `references.md`
 
 ## 📌 Quick Links
-- [Skills Matrix](skills.md)
-- [Training & Certifications](training.md)
-- [Experience & Achievements](experience.md)
-- [Professional References](references.md)
-- [Timeline Overview](timeline.md)
-- [Structured JSON Export](resume.json)
+- [Skills Matrix](./skills.md)
+- [Training & Certifications](./training.md)
+- [Experience & Achievements](./experience.md)
+- [Professional References](./references.md)
+- [Timeline Overview](./timeline.md)
+- [Structured JSON Export](./resume.json)
+- [Main](./index.md)
