@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSS Wage Suppression Calculator | Teppo Research</title>
+    <meta name="description" content="Calculate how much open-source outsourcing is suppressing your IT salary.  Based on peer-reviewed labor economics research.">
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+        body {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background:  #f5f5f5;
+        }
+        .calculator {
+            background: white;
+            padding:  30px;
+            border-radius:  12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 1.8em;
+        }
+        . subtitle {
+            color: #666;
+            margin-bottom:  30px;
+        }
+        label {
+            display:  block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #333;
+        }
+        select, input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+        select:focus, input: focus {
+            border-color: #007bff;
+            outline: none;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background: #007bff;
+            color:  white;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor:  pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background:  #0056b3;
+        }
+        .results {
+            margin-top: 30px;
+            padding:  20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: none;
+        }
+        .results.show {
+            display: block;
+        }
+        . result-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .result-row:last-child {
+            border-bottom: none;
+        }
+        .result-label {
+            color: #666;
+        }
+        .result-value {
+            font-weight: 700;
+            color:  #333;
+        }
+        .highlight {
+            color: #dc3545;
+            font-size: 24px;
+        }
+        .loss {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            text-align: center;
+        }
+        .loss-amount {
+            font-size: 32px;
+            font-weight: 700;
+            color:  #dc3545;
+        }
+        .methodology {
+            margin-top: 30px;
+            padding: 20px;
+            background: #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            color: #666;
+        }
+        .methodology h3 {
+            margin-top: 0;
+            color: #333;
+        }
+        a {
+            color:  #007bff;
+        }
+        . footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+        }
+        .share-buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .share-btn {
+            display:  inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .share-linkedin {
+            background:  #0077b5;
+        }
+        .share-twitter {
+            background: #1da1f2;
+        }
+        . share-btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h1>💰 OSS Wage Suppression Calculator</h1>
+        <p class="subtitle">How much is open-source outsourcing costing YOU?</p>
+        
+        <label for="role">Select Your Role:</label>
+        <select id="role">
+            <option value="">-- Choose your role --</option>
+            <option value="devops">DevOps Engineer</option>
+            <option value="qa">QA/Test Engineer</option>
+            <option value="writer">Technical Writer</option>
+            <option value="support">IT Support Specialist</option>
+            <option value="sysadmin">Systems Administrator</option>
+            <option value="data">Data Analyst</option>
+            <option value="engineer">Software Engineer</option>
+        </select>
+        
+        <label for="salary">Enter Your Current Salary ($):</label>
+        <input type="number" id="salary" placeholder="e.g., 115000">
+        
+        <button onclick="calculate()">Calculate My Wage Suppression</button>
+        
+        <div class="results" id="results">
+            <div class="result-row">
+                <span class="result-label">Your Current Salary:</span>
+                <span class="result-value" id="currentSalary">$0</span>
+            </div>
+            <div class="result-row">
+                <span class="result-label">Adjusted Salary (Low Estimate):</span>
+                <span class="result-value" id="adjustedLow">$0</span>
+            </div>
+            <div class="result-row">
+                <span class="result-label">Adjusted Salary (High Estimate):</span>
+                <span class="result-value" id="adjustedHigh">$0</span>
+            </div>
+            <div class="result-row">
+                <span class="result-label">Wage Suppression (Low):</span>
+                <span class="result-value highlight" id="suppressionLow">0%</span>
+            </div>
+            <div class="result-row">
+                <span class="result-label">Wage Suppression (High):</span>
+                <span class="result-value highlight" id="suppressionHigh">0%</span>
+            </div>
+            
+            <div class="loss">
+                <p>You're losing up to: </p>
+                <div class="loss-amount" id="lossAmount">$0/year</div>
+                <p style="margin-bottom: 0; font-size: 14px; color: #666;">due to OSS outsourcing</p>
+            </div>
+            
+            <div class="share-buttons">
+                <a class="share-btn share-linkedin" href="#" id="shareLinkedIn" target="_blank">Share on LinkedIn</a>
+                <a class="share-btn share-twitter" href="#" id="shareTwitter" target="_blank">Share on X</a>
+            </div>
+        </div>
+        
+        <div class="methodology">
+            <h3>📊 Methodology</h3>
+            <p>This calculator uses data from <strong>"The Global Labor Economics of Open-Source Software"</strong> (Teppo, 2025).</p>
+            <p>The model applies a wage elasticity of 0.3 (standard for skilled labor) with role-specific substitution rates based on OSS tool dependency.</p>
+            <p>The U.S. outsources 6.9%–10.9% of global OSS labor to unpaid contributors abroad, suppressing domestic IT wages by 13%–62% depending on role.</p>
+            <p><strong>Key findings:</strong></p>
+            <ul>
+                <li>U.S. does only 4% of global OSS work</li>
+                <li>U.S. has 12. 9% of global developers</li>
+                <li>Gap = 6.9%–10.9% outsourced labor</li>
+                <li>$450B–$1.9T in suppressed wages annually</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Based on research by T. Teppo (2025)</p>
+            <p>Paper 3: The Global Labor Economics of Open-Source Software</p>
+        </div>
+    </div>
+    
+    <script>
+        const roleData = {
+            devops: { 
+                name:  "DevOps Engineer",
+                baseline:  100000,
+                adjustedLow:  181300, 
+                adjustedHigh: 263000 
+            },
+            qa: { 
+                name: "QA/Test Engineer",
+                baseline:  65000,
+                adjustedLow: 117845, 
+                adjustedHigh: 171950 
+            },
+            writer: { 
+                name:  "Technical Writer",
+                baseline: 70000,
+                adjustedLow: 124050, 
+                adjustedHigh: 181900 
+            },
+            support: { 
+                name: "IT Support Specialist",
+                baseline: 45000,
+                adjustedLow: 81150, 
+                adjustedHigh: 119700 
+            },
+            sysadmin: {
+                name: "Systems Administrator",
+                baseline: 84000,
+                adjustedLow: 152124,
+                adjustedHigh: 220920
+            },
+            data: {
+                name: "Data Analyst",
+                baseline: 95000,
+                adjustedLow: 172045,
+                adjustedHigh: 249850
+            },
+            engineer: { 
+                name:  "Software Engineer",
+                baseline: 100000,
+                adjustedLow: 115270, 
+                adjustedHigh: 169800 
+            }
+        };
+        
+        function calculate() {
+            const role = document.getElementById('role').value;
+            const salary = parseFloat(document.getElementById('salary').value);
+            
+            if (!role || !salary) {
+                alert('Please select your role and enter your salary.');
+                return;
+            }
+            
+            const data = roleData[role];
+            
+            const suppressionLow = ((data.adjustedLow - salary) / data.adjustedLow * 100).toFixed(1);
+            const suppressionHigh = ((data.adjustedHigh - salary) / data.adjustedHigh * 100).toFixed(1);
+            const lossAmount = data.adjustedHigh - salary;
+            
+            document.getElementById('currentSalary').textContent = '$' + salary. toLocaleString();
+            document.getElementById('adjustedLow').textContent = '$' + data.adjustedLow.toLocaleString();
+            document.getElementById('adjustedHigh').textContent = '$' + data.adjustedHigh.toLocaleString();
+            document.getElementById('suppressionLow').textContent = Math.max(0, suppressionLow) + '%';
+            document. getElementById('suppressionHigh').textContent = Math.max(0, suppressionHigh) + '%';
+            document.getElementById('lossAmount').textContent = '$' + Math.max(0, lossAmount).toLocaleString() + '/year';
+            
+            // Update share links
+            const shareText = `I just calculated my wage suppression due to OSS outsourcing:  ${Math.max(0, suppressionHigh)}%. I could be earning $${Math.max(0, lossAmount).toLocaleString()} more per year. Calculate yours: `;
+            const shareUrl = window.location.href;
+            
+            document.getElementById('shareLinkedIn').href = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
+            document.getElementById('shareTwitter').href = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`;
+            
+            document.getElementById('results').classList.add('show');
+        }
+    </script>
+</body>
+</html>
