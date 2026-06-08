@@ -7,13 +7,13 @@ Visit my professional portfolio website for a streamlined résumé, career timel
 🔗 [terry-teppo.github.io](https://terry-teppo.github.io/ProfessionalBackground/)
 
 ## 🧠 Professional Summary
-Versatile IT specialist with enterprise experience in infrastructure automation, security compliance, and regional support operations. Certified in Microsoft Azure and BIOS automation leadership across regulated environments.
+Versatile IT Technologist with enterprise experience in Infrastructure, security compliance, Coding, Consulting, Contracting, operations, and regional support. Certified in Microsoft Azure and automation leadership across regulated environments.
 
 ## 🧰 Skills Matrix
 - **Scripting Languages:** PowerShell, Bash, Perl, Korn, Batch  
-- **Systems:** Windows NT4–2012, Red Hat, VMware ESXi  
-- **Tools:** ILO, IMM, DRAC, Altiris, ServiceNow, SQL Server  
+- **Systems:** Windows NT4–2016, Linux, VMware ESXi  
 - **Cloud/Security:** Azure, TLS Proxy Auth, Cybersecurity Architect  
+
 
 ## 🎓 Education
 **Bachelor of Science – Business Administration**  
@@ -27,6 +27,8 @@ University of Phoenix, Phoenix, AZ (2009)
 
 ## 🧰 Training Snapshot
 > VMware, Avaya CIE, EMC SnapView, Microsoft Windows/SQL/Azure, SIMA Naval Programming (COBOL, C, dBase)
+
+🔗  [Full Training Porfolio:](./TraingPortfilio.md)
 
 ## 💼 Work Timeline
 ### 2023–2025 | Enbridge – Urban Support  
