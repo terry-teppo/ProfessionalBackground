@@ -28,7 +28,7 @@ University of Phoenix, Phoenix, AZ (2009)
 ## 🧰 Training Snapshot
 > VMware, Avaya CIE, EMC SnapView, Microsoft Windows/SQL/Azure, SIMA Naval Programming (COBOL, C, dBase)
 
-🔗  [Full Training Porfolio:](./TraingPortfilio.md)
+🔗  [Full Training Porfolio:](./TrainingProtfolio.md)
 
 ## 💼 Work Timeline
 ### 2023–2025 | Enbridge – Urban Support  
