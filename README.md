@@ -31,12 +31,14 @@ University of Phoenix, Phoenix, AZ (2009)
 🔗  [Full Training Porfolio:](./TrainingProtfolio.md)
 
 ## 💼 Work Timeline
-### 2023–2025 | Enbridge – Urban Support  
+### 2023–2025 | Enbridge – Urban Desktop Support  
 Desktop ops across Duluth/Superior metro  
 ### 2020–2023 | HCL – IT CSR  
-Enterprise helpdesk under SLA pressure  
-### 2011–2013 | AMEX/IBM – Scripting Engineer  
-25K server automation, PCI firewall design  
+Enterprise helpdesk  
+### 2011–2013 | AMEX/IBM – Systems Admin/Engineer  
+Server Instalaltions, Windows, and VMware.
+[Project: OOB](./OOB.md)
+
 ... _and more, all the way back to Navy tech roots_
 
 💼 Full Résumé & Experience:  
