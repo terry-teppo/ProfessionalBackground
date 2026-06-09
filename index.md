@@ -32,7 +32,7 @@ At the core of QuantumChain lies a belief that systems should not merely operate
 
 ## 📂 Explore My Résumé Repository
 
-🔗 [View Full Résumé: ProfessionalBackground]([README.md](https://terry-teppo.github.io/ProfessionalBackground/README.md))
+🔗 [View Full Résumé: ProfessionalBackground](https://terry-teppo.github.io/ProfessionalBackground/README.md)
 
 Includes:
 - Modular `skills.md`, `training.md`, and `timeline.md` files
